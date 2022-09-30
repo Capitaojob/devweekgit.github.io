@@ -17,6 +17,7 @@ body {
 }
 
 .resume-contents {
+    /*1043 x 1780*/
     min-height: 100vh;
     width: 80%;
     border: 5px outset #303030;
@@ -24,6 +25,8 @@ body {
     margin: 2rem auto;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
+
+    max-width: 1043px;
 }
 
 .left-section {
@@ -126,10 +129,10 @@ body {
 }
 .about-me-contents {
     font-size: 18px;
-    color: #eeeeee;
+    color: #F1F8FD;
 }
 
-.exp-right {
+.exp-right, .education-right {
     margin-bottom: 60px;
 }
 
@@ -137,11 +140,12 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
-    color: #eeeeee;
+    color: #F1F8FD;
 }
 
 .exp-company-name, .education-school-name, .awards-company-name {
     font-size: 25px;
+    text-transform: uppercase;
     color: #FDB44B;
 }
 
